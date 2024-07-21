@@ -14,6 +14,9 @@ module.exports = {
       colors: {
         'Abim' : '#361f6b',
       },
+      fontFamily: {
+        'comic-sans': ['Comic Neue'],
+      },
     },
   },
   plugins: [],
