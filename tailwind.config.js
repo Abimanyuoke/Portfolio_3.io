@@ -2,7 +2,19 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+      padding: '16px',
+    },
+    extend: {
+      screens: {
+        '2xl': '1320px',
+      },
+
+      colors: {
+        'Abim' : '#361f6b',
+      },
+    },
   },
   plugins: [],
 }

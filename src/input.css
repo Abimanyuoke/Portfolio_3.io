@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    font-family : "Inter", sans-serif;
-}
+@layer utilities {
+
+    * {
+        font-family : "Inter", sans-serif;
+    }
+    
+     .title h2{
+        font-family: "Comic Neue", cursive;
+    }
+
+};
