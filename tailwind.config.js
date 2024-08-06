@@ -15,7 +15,7 @@ module.exports = {
         'Abim' : '#361f6b',
       },
       fontFamily: {
-        'comic-sans': ['Comic Neue'],
+        'comic-sans': 'Cursive',
       },
     },
   },
